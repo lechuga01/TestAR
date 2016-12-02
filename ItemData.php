@@ -3,7 +3,7 @@
 	$userName = "root";
 	$password = "";
 	$dbName = "mydb";
-	//Make a conexion
+	//Hace la conexion
 	$conn = new mysqli($serverName,$userName,$password,$dbName);
 	//check conection
 	if(!$conn){
