@@ -22,7 +22,7 @@
 		//echo "es 0";
 		//muestra la informacion 
 		while($row = mysqli_fetch_assoc($result)){
-			echo "|NoSistema " . $row['NoSistema'] . "|ISBN " . $row['ISBN']. "|Autor " . $row['Autor'] . "|TUniforme " . $row['TUniforme'] . "|Titulo " . $row['Titulo'] . "|Edicion " . $row['Edicion'] . "|PieDeImprenta " .$row['PieDeImprenta'] . "|DescrFisica " . $row['DescrFisica'] . 
+			echo "|NoSistema " . $row['NoSistema'] . "|ISBN " . $row['ISBN']. "|Autor " . $row['Autor'] . "|TituloUniforme " . $row['TituloUniforme'] . "|Titulo " . $row['Titulo'] . "|Edicion " . $row['Edicion'] . "|PieDeImprenta " .$row['PieDeImprenta'] . "|DescrFisica " . $row['DescrFisica'] . 
 			"|Nota " . $row['Nota'] . "|TemaGeneral " . $row['TemaGeneral'] . "|ASecPersonas " . $row['ASecPersonas'] . "|BaseLogica " . $row['BaseLogica'] . "*";
 		}
 	}
