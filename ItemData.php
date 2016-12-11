@@ -9,7 +9,7 @@
 	if(!$conn){
 		die("Conesion muerta".mysqli_connect_error());
 	}
-	$sql = "Select * from Aulas ";
+	$sql = "Select * from Aulas Order by HorarioInicial";
 	$result = mysqli_query($conn,$sql);
 	if(mysqli_num_rows($result) > 0){
 		while($row = mysqli_fetch_assoc($result)){
